@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>NewTest</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>db8f1eb9-e646-40da-aa5a-8867afbfdb79</testSuiteGuid>
+   <testCaseLink>
+      <guid>19d858ad-8dff-4034-bb21-4a1475f78470</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>12dec5f2-d23a-49eb-8868-ac687a9945fa</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DATA</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>12dec5f2-d23a-49eb-8868-ac687a9945fa</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>usuario</value>
+         <variableId>32e82ee9-3533-4023-a5a5-179047e25c35</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>12dec5f2-d23a-49eb-8868-ac687a9945fa</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>contraseña</value>
+         <variableId>41884ded-93c5-476b-a68e-7010db9008b5</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
